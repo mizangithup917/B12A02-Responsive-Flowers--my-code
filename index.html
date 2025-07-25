@@ -13,16 +13,20 @@
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
     <title>B12A02 Responsive Flowers RM mizanur</title>
 </head>
 
-<body>
+<body class="font-serif (Noto Serif)">
     <header>
-        <nav class="nav_section flex md:flex-row justify-between items-center  mx-w-[1140px] py-5 px-10">
+        <nav class="nav_section flex md:flex-row justify-between items-center  mx-w-[1140px] py-5 px-10 ">
             <div class="flex w-30 h-">
                 <img src="./assets/logo-flo.png" alt="">
             </div>
-            <div class=" sm:flex gap-5 text-2xl font-semibold text-gray-400">
+            <div class=" sm:flex gap-5 text-2xl font-semibold text-gray-400 font-serif(Poppins)">
                 <ul class="menu_bar menu_bar flex-fexd hidden md:flex gap-10 flex-col lg:flex flex-row">
                     <li><a class="text-gray-800 hover:text-[#E95A08]" href="#">Home</a></li>
                     <li class="hover:text-[#E95A08]"><a href="#">Shop</a></li>
@@ -110,7 +114,7 @@
         </div>
 
 <!-- -Flower & Plants Lover-------- -->
-        <div class="container mx-auto  flex flex-col lg:flex-row items-center gap-10 relative">
+        <div class=" mx-auto  flex flex-col lg:flex-row items-center gap-10 relative">
 
                 <div class="w-full lg:w-1/2 px-4 py-16">
 
@@ -144,12 +148,109 @@
             </div>
 
         </div>
+<!-- Latest  Deals section style--------->
+        <!-- <div class="mx-w-7xl m-a h-auto text-center p-10 ">
+            <h3 class="text-[50px] font-bold pb-4"><samp class="text-[#E95A08] font-extrabold text-[50px]">Latest </samp> Deals</h3>
+            <p class="text-2xl mb-10 text-gray-500 pb-6">Indulge your senses with the beauty and fragrance of our fresh flower shop.<br> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
 
+       
+        <div class="bg-amber-200 md:flex bg-amber-600 relative ">
+                <div class="w-full m-auto justify-center ">
+                        <img class="bg-amber-200 w-lg m-auto items-center  rounded-xl md:flex w-auto m-auto " src="./assets/deal-bloom.png" alt="">
 
+                        <div class="absolute text-5 font-bold text-amber-50 top-1/4 left-2/4 -translate-x-5/8 -translate-y-6/4 text-center ">
+                            <p class="py-4">60% Off | Bloom Plant</p>
+                            <p class="underline">Shop Now</p>
+                        </div>
+                        
+                  <div class="">
+                        <img class="w-lg m-auto items-center  rounded-xl max-w-full h-auto mt-6 md:flex w-auto m-auto" src="./assets/deal-ana.png" alt="">
+                        <div class="absolute text-5 font-bold text-amber-50 top-3/6 left-2/4 -translate-x-4/6 -translate-y-0/4 text-center ">
+                            <p class="pb-4">30% Off | Ana  Plant</p>
+                            <p class="underline">Shop Now</p>
+                        </div>
+                        
+                  </div>
+                       
+                </div>
+                <img class="w-lg m-auto items-center rounded-xl  h-auto mt-5 md:flex w-auto m-auto " src="./assets/deal-zabo.png" alt="">
+                <div class="absolute text-amber-50 top-3/4 left-4/6 -translate-x-2/2 -translate-y-1/4 text-center pt-15">
+                    <p class="text-2xl font-bold">25% Off | Zabo Plant</p>
+                    <p class="text-[30px] font-semibold underline">Shop Now</p>
+                </div>
+                
+        </div>
+       -->
 
+       <div class="banner_section relative">
+        <img class="mx-w-7xl m-a text-center m-auto" src="./assets/news-letter-bg.png" alt="" />
+        <div
+          class="mx-w-7xl m-a text-center lg:min-w-2xl m-auto text-center absolute top-1.5 bottom-1.5 left-1.5 right-1.5 mt-40"
+        >
+          <h3 class="w-full m-auto h-auto lg:mx-w-7xl m-a text-center lg:text-6xl text-white font-extrabold pb-10">
+            Join the colorful Bunch</h3>
+
+            <div class="flex m-a md:flex justify-center ml-15 mb-10">
+            <input
+              class="mx-w-7xl m-a  lg:pl-5 text-1xl py-1 px-1 min-w-[800px] bg-gray-200 items-center border-none "
+              type="search"
+              placeholder="Write email"
+            />
+            <button
+              class=" md:mx-w-7xl m-a text-center lg: bg-[#E95A08] text-1xl py-[20px] px-[150px]  font-bold text-white hover:bg-amber-500 transition">
+              Subscribe
+            </button>
+          </div>
+        </div>
     </main>
-    <footer>
+    <footer class="footer_section flex justify-around items-top max-w-[1920px] h-110 m-auto bg-gray-100 py-20 ">
+           
+      <div class="footer_logo w-70 m-a pb-14">
+        <div class="flex justify-left items-center">
+          <img class="mb-3" src="./assets/logo-flo.png" alt="" />
+        </div>
+        <p class="text-gray-400 text-[20px] pt-10">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+        </p>
+      </div>
 
+      <div class="w-40 m-a mt-4 ">
+
+        <ul class="pt-10 font-semibold  text-gray-300 ">
+          <li class="text-gray-500 "><a class="text-[20px]" href="#">Home</a></li>
+          <li class="text-gray-500 my-4"><a class="text-[20px]" href="#">About Us</a></li>
+          <li class="text-gray-500 my-4"><a class="text-[20px]" href="#">Blog</a></li>
+          <li class="text-gray-500 my-4"><a class="text-[20px]" href="#">AFQ</a></li>
+          <li class="text-gray-500"><a class="text-[20px]" href="#">Contact Us</a></li>
+    
+         
+        </ul>
+      </div>
+      <div class="w-50 m-a mt-10 text-[20px]">
+        
+        <p class=" pt-2 mb-4 text-gray-500">
+          Features
+        </p>
+        <p class=" pt-2 mb-4 text-gray-500">
+          Pricing
+        </p>
+        <p class=" pt-2 mb-4 text-gray-500">
+          Privacy Policy
+        </p>
+        <p class=" pt-2 mb-4 text-gray-500">
+          Terms of Service
+        </p>
+        <p class=" pt-2 mb-5 text-gray-500">
+          Help Center
+        </p>
+    </div>
+      <div class="flex w-10 h-10 m-a mt-14 mr-40 gap-4">
+        <img src="./assets/icon-facebook.png" alt="">
+        <img src="./assets/icon-linkedin.png" alt="">
+        <img src="./assets/icon-twitter.png" alt="">
+        <img src="./assets/icon-youtube.png" alt="">
+      </div>
     </footer>
 </body>
 </html>
